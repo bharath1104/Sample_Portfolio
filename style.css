@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,.65)),url(https://wallpaperaccess.com/full/279547.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.content{
+    text-align: center;
+    position: relative;
+ 
+}
+.content h1{
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 15%;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.content h3{
+    color: #FFB21F;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.content p{
+    color: #ddd;
+    font-weight: 100;
+    line-height: 1.5;
+    letter-spacing: 2.1px;
+}
+.content1{
+    text-align: center;
+    margin-top: 60px;
+}
+.content1 h1{
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.content1 p{
+    margin-top: 30px;
+    color: rgb(120, 109, 109);
+
+}
+.social{
+    text-align: center;
+    margin-top: 10px;
+}
+.social i{
+    border: 1px solid rgb(230, 224, 224);
+    padding: 20px;
+    color: #fff;
+    margin: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.social i:hover{
+    color: rgb(32, 148, 210);
+}
+
+.split{
+   display: inline-flex;
+   margin: 20px;
+}
+.split img{
+    width: 50%;
+    height: 50%;
+}
+.split .side_cont{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.side_cont h1{
+    color: rgb(55, 51, 51);
+    font-size: 26px;
+}
+.side_cont p{
+    color: rgb(163, 153, 153);
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.service{
+    width: 100%;
+    height: 90vh;
+    background-color: #CA8400;;
+}
+.content_skill{
+    text-align: center;
+    color: #fff;
+    padding-top: 40px;
+}
+.content_skill h1{
+    font-weight: 100;
+    font-size: 40px;
+}
+.content_skill p{
+    margin-top: 20px;
+}
+.row{
+    margin-left: 50px;
+    margin-top: 90px;
+    display: flex;
+}
+.column{
+    display: grid;
+    color: #fff;
+    text-align: center;
+    line-height: 2;
+}
+.column i{
+    font-size: 30px;
+    color: #fff;
+}
+
+
+.projects{
+    width: 100%;
+    height: 50vh;
+}
+.cont_pro{
+    text-align: center;
+    margin: 50px;
+    line-height: 2;
+}
+.file{
+    text-align: center;
+}
+
+.row1 button{
+    padding: 10px;
+    border: 1px solid #FFB11E;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin: 10px;
+}
+.row1 button:hover{
+    background-color: #FFB11E;
+}
+
+footer{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(37, 34, 34);
+}
+.cont_touch{
+    text-align: center;
+    padding: 20px;
+}
+.cont_touch h1{
+    color: #fff;
+    font-weight: normal;
+}
+.form{
+    text-align: center;
+    margin-top: 30px;
+    line-height: 2;
+}
+.form p{
+    color: #989898;
+}
+.form h3{
+    font-weight: normal;
+    color: #fff;
+    font-size: 15px;
+}
+.last{
+    text-align: center;
+    margin-top: 50px;
+}
+.last p{
+    color: #989898;
+}
+@media (max-width:767px){
+    .container{
+        background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,.65)),url(https://wallpaperaccess.com/full/279547.jpg);
+        background-position: right;
+    }
+    .content{
+        padding-top: 200px;
+    }
+    .split{
+        display: grid;
+    }
+    .split img{
+        width: 100%;
+        height: 100%;
+    }
+    .split .side_cont{
+        margin: 10px;
+    }
+    .row{
+        display: grid;
+        margin-right: 60px;
+    }
+    .service{
+
+        height: 140vh;
+        
+    }
+    .content_skill{
+        margin: 10px;
+    }
+    footer{
+        height: 60vh;
+    }
+  
+    
+   
+    
+}
